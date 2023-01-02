@@ -8,7 +8,7 @@ function preload (){
 }
 
 function setup() {
-  createCanvas(2 * windowWidth, 2 * windowHeight);
+  createCanvas (windowWidth, windowHeight);
   frameRate (0.5);
 noStroke ();
 }
@@ -20,9 +20,9 @@ var num = 4;
 var XsideLen = windowWidth / num;
 
 
-    for (var dy = 0; dy < windowHeight; dy = dy + XsideLen * 0.53) {
+    for (var dy = 0; dy < 2 * windowHeight; dy = dy + XsideLen * 0.53) {
 
-        for (var dx = 0; dx < windowWidth; dx = dx + XsideLen) {
+        for (var dx = 0; dx < 2 * windowWidth; dx = dx + XsideLen) {
 
    quad(dx, dy,
                 dx + XsideLen, dy,
