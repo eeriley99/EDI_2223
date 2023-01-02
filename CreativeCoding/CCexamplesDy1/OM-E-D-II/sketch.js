@@ -13,30 +13,30 @@ function setup() {
 noStroke ();
 }
 
-function draw() { 
-  
-var num = 4; 
-  
+function draw() {
+
+var num = 4;
+
 var XsideLen = windowWidth / num;
 
 
     for (var dy = 0; dy < windowHeight; dy = dy + XsideLen * 0.53) {
 
         for (var dx = 0; dx < windowWidth; dx = dx + XsideLen) {
-    
+
    quad(dx, dy,
                 dx + XsideLen, dy,
                 dx + XsideLen, dy + XsideLen * 0.53,
                 dx, dy + XsideLen * 0.53);
-      
+
     var pics = [window1, window2, window3, window4];
 
     image(pics [int(random (0,4))], dx, dy, XsideLen, XsideLen * 0.53);
-  } 
-    
+  }
+
   }
 noLoop();
 }
-function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
-}
+// function windowResized() {
+//     resizeCanvas(windowWidth, windowHeight);
+// }
