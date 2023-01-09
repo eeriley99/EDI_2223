@@ -7,8 +7,8 @@ function preload (){
 function setup() {
   //runs once
   createCanvas(windowWidth, windowWidth);
-  fill(255, 0, 0);
-  stroke(1);
+  //fill(255, 0, 0);
+  //stroke(1);
   background(255, 255, 0);
 }
 
