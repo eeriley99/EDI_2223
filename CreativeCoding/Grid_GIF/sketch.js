@@ -21,11 +21,6 @@ var sideLen = windowWidth/num; //side length
 
 for (var y = 0; y < windowWidth; y = y + sideLen ){//loop creates a row in the y direction
 for (var x = 0; x  < windowWidth; x = x + sideLen ){//loop creates a row in the x direction
-  quad (x , y,
-        x + sideLen , y,
-        x + sideLen , y + sideLen ,
-        x, y + sideLen);
-
         image (gif, x, y, windowWidth/num, windowWidth/num);
 }
 }
