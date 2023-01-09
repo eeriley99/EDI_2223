@@ -1,7 +1,7 @@
 let gif;
 
 function preload (){
-  gif = loadImage ('Assets_2/yellowSquare.gif');
+  gif = loadImage ('assets/yellowSquare.gif');
 }
 
 function setup() { //runs once
