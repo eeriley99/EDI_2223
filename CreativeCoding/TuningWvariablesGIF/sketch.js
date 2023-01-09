@@ -26,13 +26,13 @@ var num = 10; //variable for the number of squares in the array
     x + sideLen, y + sideLen,
     x, y + sideLen);
 
-   image(gif, x, y, windowWidth/num, windowWidth/num);
 
 
-  }
 
   }
 
+  }
+image(gif, x, y, windowWidth/num, windowWidth/num);
 }
 
 function windowResized() {
