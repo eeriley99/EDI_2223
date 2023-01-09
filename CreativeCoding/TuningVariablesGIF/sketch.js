@@ -1,4 +1,4 @@
-let img;
+let gif;
 
 function preload (){
   gif = loadImage ('assets/WebGraphic.gif')
