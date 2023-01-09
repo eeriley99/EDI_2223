@@ -21,18 +21,15 @@ var num = 10; //variable for the number of squares in the array
 
      for (var x = 0; x < 2*windowWidth; x = x + sideLen) {// loop to create a row of squares in the x direction
 
-  quad(x, y,
-    x + sideLen, y,
-    x + sideLen, y + sideLen,
-    x, y + sideLen);
 
 
 
 
-  }
-
-  }
 image(gif, x, y, windowWidth/num, windowWidth/num);
+  }
+
+  }
+
 }
 
 function windowResized() {
