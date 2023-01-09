@@ -23,8 +23,4 @@ for (var y = 0; y < windowWidth; y = y + sideLen){
 image (gif, x, y, windowWidth/num, windowWidth/num);//img for image
   }
 }
-
-
-
-
 }
