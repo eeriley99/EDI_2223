@@ -1,7 +1,7 @@
 let img;
 
 function preload (){
-  img = loadImage ('assets/WebGraphic.gif')
+  gif = loadImage ('assets/WebGraphic.gif')
 }
 
 function setup() {
