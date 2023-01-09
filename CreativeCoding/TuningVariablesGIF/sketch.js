@@ -9,7 +9,7 @@ function setup() {
   createCanvas(windowWidth, windowWidth);
   //fill(255, 0, 0);
   //stroke(1);
-  //background(255, 255, 0);
+  background(255, 255, 0);
 }
 
 function draw() {
