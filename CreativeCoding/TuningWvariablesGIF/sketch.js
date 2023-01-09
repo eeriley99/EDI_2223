@@ -26,7 +26,7 @@ var num = 10; //variable for the number of squares in the array
     x + sideLen, y + sideLen,
     x, y + sideLen);
 
-   image(gif, x, y, x + (sideLen/2 - 40), y + (sideLen/2 - 40));
+   image(gif, x, y, windowWidth/num, windowWidth/num);
 
 
   }
