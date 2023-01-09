@@ -8,7 +8,7 @@ function preload(){//preload my img/gif
 
 function setup() {//runs once
 createCanvas (windowWidth, windowWidth);// creates a canvas 720 pixels by 720 pixels
-background (255, 255, 0); //background color
+//background (255, 255, 0); //background color
 }
 
 function draw() {//runs in a loop
