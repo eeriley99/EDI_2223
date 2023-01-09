@@ -15,7 +15,7 @@ background (255);
 
 translate(-100, -100)//to give a bleed effect
 
-var num = 57; //variable for the number of squares in the array
+var num = 10; //variable for the number of squares in the array
 var sideLen = windowWidth/num;//variable for the side lenth of each square
 
   for (var y = 0; y < 2*windowHeight; y = y + sideLen) {//loop to create rows in the y direction
