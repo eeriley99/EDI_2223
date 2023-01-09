@@ -3,7 +3,7 @@
 let gif;//img for static image
 
 function preload(){//preload my img/gif
-  gif = loadImage (assets/yellowSquare.gif);
+  gif = loadImage ('assets/yellowSquare.gif');
 }
 
 function setup() {//runs once
