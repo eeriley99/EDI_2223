@@ -32,5 +32,5 @@ var num = 10; //variable for the number of squares in the array
   }
 
   }
-
+noLoop ();
 }
