@@ -23,7 +23,7 @@ function draw() {
     for (var x = 0; x < windowWidth; x = x + sideLen) {
       // loop to create a row of squares in the x direction
 
-      quad(x, y, x + sideLen, y, x + sideLen, y + sideLen, x, y + sideLen);
+      //quad(x, y, x + sideLen, y, x + sideLen, y + sideLen, x, y + sideLen);
 
       image(gif, x + sideLen, y + sideLen);
     }
