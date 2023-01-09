@@ -1,4 +1,9 @@
 //create a program that enables up to customize the number of squares in a grid
+let gif;//"let img;" for image
+
+function preload (){
+  gif = loadImage ('assets/yellowSquare.gif');
+}
 
 function setup() {//runs once
 createCanvas (windowWidth, windowWidth);// creates a canvas 720 pixels by 720 pixels
@@ -15,10 +20,7 @@ var sideLen = windowWidth/num; //side length variable
 
 for (var y = 0; y < windowWidth; y = y + sideLen){
   for (var x = 0; x < windowWidth; x = x + sideLen) {
-    quad (x, y,
-          x + sideLen, y,
-          x + sideLen, y + sideLen,
-          x, y + sideLen);
+image (gif, x, y, windowWidth/num, windowWidth/num);//img for image
   }
 }
 
