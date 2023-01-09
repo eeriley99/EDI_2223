@@ -25,7 +25,7 @@ function draw() {
 
       quad(x, y, x + sideLen, y, x + sideLen, y + sideLen, x, y + sideLen);
 
-      image (img, 0, 0);
+      image (img, sideLen, sideLen);
     }
   }
 }
