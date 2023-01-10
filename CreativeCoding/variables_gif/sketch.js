@@ -17,10 +17,15 @@ strokeWeight (1);//assigns stroke weight
 var num = 30; //number of sides in the array
 var sideLen = windowWidth/num; //side length variable
 
+translate (-150, -150);//this will give your design a bleed effect
 
-for (var y = 0; y < windowWidth; y = y + sideLen){
-  for (var x = 0; x < windowWidth; x = x + sideLen) {
+for (var y = 0; y < 2 * windowWidth; y = y + sideLen){
+  for (var x = 0; x < 2 * windowWidth; x = x + sideLen) {
 image (gif, x, y, windowWidth/num, windowWidth/num);//img for image
   }
 }
+}
+
+function windowResized (){//this resizes and refreshes your design with the browser
+  resizeCanvas (windowWidth, windowHeight);
 }
