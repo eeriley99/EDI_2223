@@ -26,6 +26,6 @@ image (gif, x, y, windowWidth/num, windowWidth/num);//img for image
 }
 }
 
-function windowResized (){//this resizes and refreshes your design with the browser
+function windowResized (){//allow window refresh with window resizing
   resizeCanvas (windowWidth, windowHeight);
 }
