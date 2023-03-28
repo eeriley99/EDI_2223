@@ -2,7 +2,7 @@
 let gif;//"let img;" for image
 
 function preload (){
-  gif = loadImage ('assets/Skull2.gif');
+  gif = loadImage ('yellowSquare.gif');
 }
 
 function setup() {//runs once
